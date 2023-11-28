@@ -36,6 +36,6 @@ def alg_bag(items, bag_size, area, value, points):
     return final_bag, f"Итоговые очки выживания: {final_points}"
 
 
-final_bag,final_points = (alg_bag(ITEMS, BAG_SIZE, AREA, VALUE, POINTS))
+final_bag, final_points = (alg_bag(ITEMS, BAG_SIZE, AREA, VALUE, POINTS))
 print(final_bag)
 print(f"Итоговые очки выживани: {final_points}")
